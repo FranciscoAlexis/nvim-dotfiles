@@ -37,6 +37,8 @@ return {
             'python',
             'query',
             'regex',
+            'ron',
+            'rust',
             'scss',
             'svelte',
             'swift',
