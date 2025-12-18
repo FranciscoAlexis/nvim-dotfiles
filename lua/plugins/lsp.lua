@@ -144,6 +144,15 @@ return {
                 },
             },
             pyright = {},
+            rust_analyzer = {
+                settings = {
+                    rust_analyzer = {
+                        checkOnSave = {
+                            command = 'clippy'
+                        },
+                    },
+                },
+            },
         }
 
         local ensure_installed = vim.tbl_keys(servers or {})
